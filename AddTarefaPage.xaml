@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gerenciador.AddTarefaPage"
+             BackgroundColor="#525BF8">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30,0" Spacing="25">
+            <ImageButton Source="backbutton.png" WidthRequest="40" BackgroundColor="White" HeightRequest="40" CornerRadius="22" HorizontalOptions="End" Clicked="voltarPagina_Clicked" Margin="30,30,0,0" Padding="10"/>
+            <Image Source="logo.png" WidthRequest="200" HeightRequest="200"/>
+
+            <Frame Padding="10">
+                <StackLayout Padding="20" Spacing="15">
+                    <Label Text="Tarefa" TextColor="#3B42C4"  FontSize="16" />
+
+                    <Entry x:Name="entryDescricao"    Opacity="0.40"  BackgroundColor="#525BF8" PlaceholderColor="Black" TextColor="Black" Placeholder="Digite a descrição da tarefa..." />
+
+                    <Label Text="Data" TextColor="#3B42C4"  FontSize="16" />
+                    <DatePicker x:Name="datePickerData" Opacity="0.40"  BackgroundColor="#525BF8"  TextColor="Black"  />
+
+                    <Label TextColor="#3B42C4" Text="Hora"  FontSize="16" />
+                    <TimePicker x:Name="timePickerHora"  Opacity="0.40" BackgroundColor="#525BF8"  TextColor="Black"  />
+
+                    <Label TextColor="#3B42C4" Text="Prioridade" FontSize="16" />
+                    <Picker x:Name="pickerPrioridade"  Opacity="0.40"  BackgroundColor="#525BF8"  TextColor="Black" >
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>1</x:String>
+                                <x:String>2</x:String>
+                                <x:String>3</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Label TextColor="#3B42C4" Text="Categoria"  FontSize="16" />
+                    <Picker x:Name="categoriaPicker"  Opacity="0.40"  BackgroundColor="#3B42C4"  TextColor="Black" ItemDisplayBinding="{Binding Nome}" SelectedIndexChanged="CategoriaPicker_SelectedIndexChanged" />
+
+                    <Button Text="Adicionar Tarefa"
+                         BackgroundColor="#525BF8"
+                         Clicked="save_tarefa_Clicked"
+                         TextColor="White" />
+                </StackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

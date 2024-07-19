@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gerenciador.AddCategoriaPage"
+             BackgroundColor="#525BF8">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <ImageButton Source="backbutton.png" WidthRequest="40" BackgroundColor="White" HeightRequest="40" CornerRadius="22" HorizontalOptions="End" Clicked="voltarPagina_Clicked" Margin="30,30,0,0" Padding="10"/>
+            <Image Source="logo.png" WidthRequest="200" HeightRequest="200"/>
+            <Frame BackgroundColor="white" Padding="10">
+                <VerticalStackLayout Spacing="10" Padding="20">
+
+                    <Label FontAttributes="Bold" TextColor="Black" Text="Adicionar Categoria:" />
+                    <Entry  Opacity="0.40"  BackgroundColor="#525BF8" PlaceholderColor="Black" Placeholder="Digite o nome da nova categoria..." TextColor="Black" x:Name="entry_categoria"/>
+                    <Button BackgroundColor="#525BF8" FontAttributes="Bold" TextColor="white" Text="Adicionar" Clicked="add_categoria_clicked"/>
+
+                    <StackLayout>
+                        <CollectionView x:Name="collectionViewCategorias">
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <StackLayout Orientation="Horizontal" Padding="5" Spacing="10" VerticalOptions="Center">
+                                        <Button Text="x" BackgroundColor="#525BF8"  CommandParameter="{Binding .}"  Clicked="delete_categoria_clicked" TextColor="White" VerticalOptions="Center"/>
+                                        <Label TextColor="Black" Text="{Binding Nome}" VerticalOptions="Center" />
+                                        
+                                    </StackLayout>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>
+                    </StackLayout>
+                        
+
+
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

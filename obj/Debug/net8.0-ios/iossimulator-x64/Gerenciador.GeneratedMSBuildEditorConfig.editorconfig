@@ -1,0 +1,89 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Gerenciador
+build_property.ProjectDir = C:\Users\cb.cruz\source\repos\Gerenciador\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/AddCategoriaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.AddCategoriaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddCategoriaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddCategoriaPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/AddCompromissoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.AddCompromissoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddCompromissoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddCompromissoPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/AddTarefaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.AddTarefaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AddTarefaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AddTarefaPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/CompromissoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.CompromissoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CompromissoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CompromissoPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/EditCompromissoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.EditCompromissoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditCompromissoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditCompromissoPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/EditTarefaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.EditTarefaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditTarefaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditTarefaPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/cb.cruz/source/repos/Gerenciador/TarefaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gerenciador.TarefaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TarefaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TarefaPage.xaml

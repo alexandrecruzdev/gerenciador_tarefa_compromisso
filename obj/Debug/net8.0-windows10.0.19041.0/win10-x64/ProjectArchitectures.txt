@@ -1,0 +1,1 @@
+C:\Users\cb.cruz\source\repos\Gerenciador\Gerenciador.csproj;x64
