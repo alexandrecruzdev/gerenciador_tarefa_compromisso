@@ -1,4 +1,4 @@
-#Gerenciador de Tarefas e Compromissos
+# Gerenciador de Tarefas e Compromissos
 
 Bem-vindo ao Gerenciador de Tarefas e Compromissos, um aplicativo desenvolvido em C# utilizando .NET MAUI e SQLite. Este aplicativo permite aos usuários gerenciar suas tarefas diárias e compromissos de forma eficiente e organizada.
 
