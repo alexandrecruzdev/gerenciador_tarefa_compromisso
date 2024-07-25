@@ -5,8 +5,11 @@ Bem-vindo ao Gerenciador de Tarefas e Compromissos, um aplicativo desenvolvido e
 Funcionalidades
 
 Adicionar Tarefas e Compromissos: Crie novas tarefas e compromissos com título, descrição, data e hora, prioridade e categoria.
+
 Editar Tarefas e Compromissos: Modifique os detalhes das tarefas e compromissos existentes.
+
 Concluir Tarefa e Compromisso: Conclua as tarefas e os compromissos desejados.
+
 Excluir Tarefas e Compromissos: Remova tarefas e compromissos concluídos ou não desejados.
 
 Visualizar Tarefas e Compromissos: Veja todos as tarefas e compromissos em uma lista organizada.
