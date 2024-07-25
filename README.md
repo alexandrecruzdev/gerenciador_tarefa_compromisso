@@ -21,6 +21,7 @@ Tecnologias Utilizadas
 C#: Linguagem de programação principal.
 .NET MAUI: Framework para desenvolvimento de aplicativos móveis multiplataforma.
 SQLite: Banco de dados local para armazenamento de dados.
+https://youtu.be/s0TN-miprls
 
 
 
